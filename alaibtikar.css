@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    box-sizing: 0px;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #304E58;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none; /* no underline */
+    color: #00000085;
+}
+nav{
+    z-index: 1;
+    position: absolute;
+    width: -webkit-fill-available;
+    height: 102px;
+    background-color: white;
+    box-shadow: 5px 10px 20px #333333;
+}
+
+.nav-contaner{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-elements{
+    color: #00000085;
+    margin: 23px;
+    margin-left: 54px;
+    font-family: 'DroidArabicKufiRegular';
+    font-size: 22pt;
+}
+.nav-elements:hover{
+    color:#3a3838;
+}
+.nav-elements>img{
+    height: 80px;
+    width: 218px;
+    margin:-25px;
+    
+
+}
+
+.image-galry{
+    width: initial;
+    height: 841px;
+    position: relative;
+    display: block;
+}
+.galry > img{
+    width: 1349px;
+    height:771px;
+    position: absolute;
+    
+}
+
+.galryText-contaner{
+    
+    width: 540px;
+    position: absolute;
+    height: 267px;
+    font-size: 37px;
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+    margin-top: 170px;
+    margin-right: 109px;
+}
+
+.galryText-contaner>button{
+    width:212.6px;
+    color: #2B464F;
+    height:68px;
+    font-size: 27px;
+    font-family: 'DroidArabicKufiRegular';
+    background-color: #DAA625;
+    border:none;
+    margin-top: 81px;
+}
+.galryText-contaner>h3{
+    color:#ffffffd1;
+}
+button:focus {
+    outline: none;
+}
+button:hover{
+    color:white;
+}
+
+.text-1{
+    width: 1349px;
+    height: 600px;
+    display: flex;
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    animation: appearY ease-out  2s ;
+}
+.text-1> h1, h3{
+    justify-content: center;
+    font-size: 30pt;
+}
+.text-1> h3{
+    justify-content: center;
+    font-size: 15pt;
+    color: #ffffffd1;
+}
+
+.about{
+    
+    width: 1349px;
+    height: 570px;
+    display: grid;
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+    display: inline-grid;
+  grid-template-columns: 40% 60%;
+  
+  /* animation: appearX ease-out  2s ; */
+}
+
+.about img{
+    width:809px;
+    height: 632px;
+}
+.p{
+    padding: 51px;
+    /* margin-top: 290px; */
+}
+
+.p>p{
+    color: #ffffffd1;
+}
+
+@keyframes appearY{
+    from{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes appearX{
+    from{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+section{
+    height: 841px;
+    width: webkit-fill-available;
+}
+.f{
+    height:615px;
+}
+.classes-section{
+    display: flex;
+    margin-top: 200px;
+    height: 580px;
+    font-family: 'DroidArabicKufiRegular';
+    color:white;
+    font-size: 15pt;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enmation>h1{
+    display: flex;
+    justify-content: center;
+}
+
+.enmation>h3{
+    align-items: center;
+    color:#ffffffd1;
+    font-size: 15pt;
+}
+
+.classes-contaner{
+   
+    display: flex;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+.classes-contaner>div{
+    background-color: #00000063;
+    width:202px;
+    height: 426px;
+    margin: 30px;
+    font-size: 30px;
+
+    
+}
+.classes-contaner>div:hover{
+    transition-duration: 0.5s;
+    height: 150px;
+   
+}
+.C-image>img{
+    z-index: -1;
+    position: absolute;
+    width:202px;
+    height: 426px;
+    
+}
+
+.C-image>p{
+    margin-right: 20px;
+    opacity: 1;
+}
+
+.contact{
+    display: flex;
+    font-family: 'DroidArabicKufiRegular';
+    color:white;
+    font-size: 15pt;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social>img{
+    width: 45.5px;
+    height: 43.4px;
+    margin: 30px;
+}
+.social>svg{
+    width: 45.5px;
+    height: 43.4px;
+    margin: 30px;
+    opacity: 60%;
+}
+
+.social>svg:hover{
+    opacity: 100%;
+}
+
+footer{
+    
+    width:-webkit-fill-available ;
+    height: 399.5px;
+    background-color: #DAA625;
+}
+.design{
+    display: inline-block;
+    margin-top: 13px;
+    width:-webkit-fill-available ;
+    height: 6.7px;
+    background-color: #304E58;
+}
+
+.footer-contaner{
+    display: grid;
+    height: 290px;
+    width:-webkit-fill-available;
+    margin-right: 109px;
+    margin-left:109px ;
+    margin-top: 28px;
+    flex-direction: column;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.footer-contaner>div{
+    color: #304E58;
+    font-size: 35px;
+    font-family: 'Scheherazade', serif;
+    margin-top: 22px;
+}
+ul{
+    font-size: 19.7px;
+    margin-top: 19px;
+    padding-right: 20px;
+}
+.info-grid>svg{
+    width: 25px;
+    height: 25px;
+    margin-top: 11px;
+}
+
+
+.info-grid{
+    display: grid;
+    grid-template-columns:  6% 94%;
+}
+.info-grid>div{
+    font-size: 16px;
+    align-self: self-end;
+    font-family: system-ui;
+
+}
+.hr{
+    background-color:#304E58 ;
+    height: 2px;
+    width:-webkit-fill-available;
+    margin-right: 109px;
+    margin-left:109px ;
+
+}
+.pravisy{
+    display: flex;
+    margin-right: 109px;
+    margin-left:109px ;
+    
+    font-family: system-ui;
+    color:#304E58;
+    
+}
+.footer-right{
+    margin-right:20px ;
+}
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: self-end;
+    margin-top: 22px;
+    
+}
+input{
+    background-color: #BB8F2B;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;  
+    font-size: 16px; 
+}
+::placeholder{
+    
+    color: #F2C15D;
+    opacity: 80%;
+    padding-right: 10px;
+    
+}
+textarea:focus{
+    outline: none  1px;
+}
+input[type=email]{
+    color:wheat;
+    width: 348.4px;
+    height: 31.6px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+textarea{
+    padding-right: 10px;
+    color:wheat;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;  
+    font-size: 18px;
+    background-color: #BB8F2B;
+    width:348.4px;
+    height: 123.1px;
+}
+input[type=submit]{
+    width: 95.8px;
+    height: 40.7px;
+    font-size: 20px;
+    color:#304E58;
+    font-weight: bold;
+    font-family: 'Scheherazade', serif;
+}
+input[type=submit]:hover{
+    color:wheat;
+}
