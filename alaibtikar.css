@@ -55,7 +55,7 @@ nav{
     display: block;
 }
 .galry > img{
-    width: 1349px;
+    width: -webkit-fill-available;
     height:771px;
     position: absolute;
     
