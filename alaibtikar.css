@@ -116,7 +116,7 @@ button:hover{
 
 .about{
     
-    width: 1349px;
+    width:-webkit-fill-available;
     height: 570px;
     display: grid;
     color: white;
