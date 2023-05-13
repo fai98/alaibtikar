@@ -5,4 +5,6 @@
 
 تم تصميم الصفحه الرئيسيه لموقع اكاديمية الابتكار بإستخدام  , html , css
 
-لزيارة الموقع : fai98.github.io/alaibtikar/ 
+
+لزيارة الموقع : [اضغط هنا](https://fai98.github.io/alaibtikar/)
+
